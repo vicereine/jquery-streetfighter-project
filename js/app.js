@@ -6,6 +6,18 @@ $(document).ready(function() {
   $('.strike').delay(10000).fadeIn();
   $('.jump').delay(11000).fadeIn();
   $('.button').delay(12000).fadeIn();
+  $('.button').mousedown(function(){
+    $('.ryu-still').hide();
+    $('.ryu-jump').show(); 
+    })
+    .mouseup(function() {
+    $('.ryu-still').show();
+    $('.ryu-jump').hide();
+  })
+
+
+
+
   $('body').keydown(function(event) {
   if(event.keyCode==88) {
     $('.ryu-still').hide();
