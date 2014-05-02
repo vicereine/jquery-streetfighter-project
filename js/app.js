@@ -4,6 +4,8 @@ $(document).ready(function() {
   $('.logo').delay(5000).fadeOut();
   $('.throw').delay(9000).fadeIn();
   $('.strike').delay(10000).fadeIn();
+  $('.jump').delay(11000).fadeIn();
+  $('.button').delay(12000).fadeIn();
   $('body').keydown(function(event) {
   if(event.keyCode==88) {
     $('.ryu-still').hide();

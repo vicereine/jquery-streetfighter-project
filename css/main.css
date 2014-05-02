@@ -78,26 +78,51 @@ body {
 .throw {
   font-family: impact;
   font-size: 30px;
-  width: 800px;
-  height: 800px;
+  width: 400px;
+  height: 400px;
   display: none;
   position: absolute;
-  top: 250px;
-  left: 681px;
+  top: 190px;
+  left: 735px;
   float: right;
 }
 
 .strike {
   font-family: impact;
   font-size: 30px;
-  width: 800px;
-  height: 800px;
+  width: 400px;
+  height: 400px;
   display: none;
   position: absolute;
-  top: 400px;
-  left: 781px;
+  top: 318px;
+  left: 735px;
   float: right;
+}
 
-  
-  
+.jump {
+  font-family: impact;
+  font-size: 30px;
+  display: none;
+  position: absolute;
+  top: 450px;
+  left: 735px;
+  float: right;
+}
+
+.button {
+  font-family: impact;
+  font-size: 30px;
+  display: none;
+  width: 100px;
+  height: 50px;
+  padding-top: 15px;
+  border: 2px, solid, black;
+  border-radius: 25px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 415px;
+  left: 75px;
+  float: left;
 }
