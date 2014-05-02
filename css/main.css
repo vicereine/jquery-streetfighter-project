@@ -1,5 +1,13 @@
 body {
+  background-image: url('../images/ryu-background.png');
   background-color: black;
+}
+
+.background {
+  background-image: url('../images/ryu-background.png');
+  display: block;
+  height: 900;
+  width: 1600;
 }
 
 .main {
@@ -59,7 +67,7 @@ body {
   background-repeat: no-repeat;
   width: 800px;
   height: 800px;
-  display: none;
+  display: block;
   position: absolute;
   top: 148px;
   left: 681px;
@@ -71,6 +79,7 @@ body {
   font-size: 30px;
   width: 800px;
   height: 800px;
+  display: none;
   position: absolute;
   top: 250px;
   left: 681px;
@@ -82,6 +91,7 @@ body {
   font-size: 30px;
   width: 800px;
   height: 800px;
+  display: none;
   position: absolute;
   top: 400px;
   left: 781px;

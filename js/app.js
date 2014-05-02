@@ -1,10 +1,13 @@
 $(document).ready(function() {
+  $('.logo').delay(2000).fadeOut();
+  $('.throw').delay(2500).fadeIn();
+  $('.strike').delay(3000).fadeIn();
   $('body').keydown(function(event) {
   if(event.keyCode==88) {
     $('.ryu-still').hide();
-    $('ryu-ready').hide();
-    $('ryu-throwing').hide();
-    $('ryu-cool').show();
+    $('.ryu-ready').hide();
+    $('.ryu-throwing').hide();
+    $('.ryu-cool').show();
   }
 })
     $('body').keyup(function(event) {
@@ -44,12 +47,6 @@ $(document).ready(function() {
     $('.ryu-ready').show();
   });
 });
-
-
-
-
-  
-
 
 
 function playHadouken () {
