@@ -1,7 +1,9 @@
 $(document).ready(function() {
-  $('.logo').delay(2000).fadeOut();
-  $('.throw').delay(2500).fadeIn();
-  $('.strike').delay(3000).fadeIn();
+  $('.logo').delay(3000).fadeIn();
+  $('.wallpaper').delay(4000).fadeOut();
+  $('.logo').delay(5000).fadeOut();
+  $('.throw').delay(9000).fadeIn();
+  $('.strike').delay(10000).fadeIn();
   $('body').keydown(function(event) {
   if(event.keyCode==88) {
     $('.ryu-still').hide();

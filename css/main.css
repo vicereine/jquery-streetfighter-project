@@ -3,11 +3,8 @@ body {
   background-color: black;
 }
 
-.background {
-  background-image: url('../images/ryu-background.png');
-  display: block;
-  height: 900;
-  width: 1600;
+.wallpaper{
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -22,16 +19,16 @@ body {
 	float: left;
 }
 
-.ryu-cool, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-jump {
   width: 659px;
   height: 494px;
 }
 
-.ryu-cool, .ryu-ready, .ryu-throwing  {
+.ryu-cool, .ryu-ready, .ryu-throwing, .ryu-jump {
   display: none;
 } 
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .ryu-jump, {
   background-repeat: no-repeat;
 }
 
@@ -51,6 +48,10 @@ body {
   background-image: url('../images/ryu-cool.gif');
 }
 
+.ryu-jump {
+  background-image: url('../images/ryu-jump-kick.gif');
+}
+
 .hadouken {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
@@ -67,7 +68,7 @@ body {
   background-repeat: no-repeat;
   width: 800px;
   height: 800px;
-  display: block;
+  display: none;
   position: absolute;
   top: 148px;
   left: 681px;
