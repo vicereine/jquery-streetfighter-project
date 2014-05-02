@@ -82,7 +82,7 @@ body {
   height: 400px;
   display: none;
   position: absolute;
-  top: 190px;
+  top: 150px;
   left: 735px;
   float: right;
 }
@@ -94,7 +94,7 @@ body {
   height: 400px;
   display: none;
   position: absolute;
-  top: 318px;
+  top: 275px;
   left: 735px;
   float: right;
 }
@@ -104,7 +104,7 @@ body {
   font-size: 30px;
   display: none;
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 735px;
   float: right;
 }
@@ -122,7 +122,7 @@ body {
   color: black;
   text-align: center;
   position: relative;
-  top: 415px;
+  top: 400px;
   left: 75px;
   float: left;
 }
